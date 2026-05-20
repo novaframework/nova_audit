@@ -456,8 +456,8 @@ caller or another library:
   and require domain code to not put PII in `metadata` in the first
   place.
 - **Tamper evidence.** No chain-hashes or signed envelopes in v0.1. A
-  wrapper library (likely `nova_audit_signed`) will land later and
-  layers cryptographic anchoring on top of the same adapter behaviour.
+  wrapper that layers cryptographic anchoring on top of the adapter
+  behaviour is planned for a later release.
 - **Cross-service correlation.** Pass `request_id` between services
   yourself (HTTP header propagation, message metadata in your queue).
   `nova_audit` records it; carrying it is your job.

@@ -330,10 +330,10 @@ You suspect the audit log has been tampered with.
    in the relevant window. If hardening was in place, these will have
    failed and been logged as errors. If they succeeded, hardening was
    bypassed.
-4. **v0.1 does not provide cryptographic tamper evidence.** That lands
-   in a v0.2+ wrapper (`nova_audit_signed`). Until then, immutable
-   backups + DB-level hardening + monitoring of the grant table are
-   the defence.
+4. **v0.1 does not provide cryptographic tamper evidence.** A wrapper
+   adding cryptographic anchoring is planned for v0.2+. Until then,
+   immutable backups + DB-level hardening + monitoring of the grant
+   table are the defence.
 
 ## Capacity planning
 
