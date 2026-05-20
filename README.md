@@ -31,10 +31,11 @@ ok = nova_audit:log_async(access_log, Event).
 
 ## Adapters
 
-| Adapter            | Storage     | Status |
-| ------------------ | ----------- | ------ |
-| `nova_audit_log`   | OTP logger  | v0.1   |
-| `nova_audit_kura`  | Postgres    | v0.1   |
+| Adapter            | Storage             | Status |
+| ------------------ | ------------------- | ------ |
+| `nova_audit_log`   | OTP logger          | v0.1   |
+| `nova_audit_kura`  | Postgres (via Kura) | v0.1   |
+| `nova_audit_pgo`   | Postgres (via pgo)  | v0.1   |
 
 `nova_audit_storage` (uses `nova_storage`) lands in v0.2.
 

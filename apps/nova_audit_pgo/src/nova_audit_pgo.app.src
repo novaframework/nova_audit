@@ -1,0 +1,10 @@
+{application, nova_audit_pgo, [
+    {description, "pgo adapter for nova_audit"},
+    {vsn, "git"},
+    {registered, []},
+    {applications, [kernel, stdlib, nova_audit]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, [{"GitHub", "https://github.com/novaframework/nova_audit"}]}
+]}.
