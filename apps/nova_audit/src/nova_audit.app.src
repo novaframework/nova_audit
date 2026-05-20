@@ -1,0 +1,11 @@
+{application, nova_audit, [
+    {description, "Append-only audit event log for the Nova ecosystem"},
+    {vsn, "git"},
+    {registered, [nova_audit_sup, nova_audit_registry]},
+    {applications, [kernel, stdlib, jhn_stdlib]},
+    {mod, {nova_audit_app, []}},
+    {env, [{logs, #{}}]},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, [{"GitHub", "https://github.com/novaframework/nova_audit"}]}
+]}.

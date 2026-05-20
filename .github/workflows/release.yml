@@ -1,0 +1,16 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**.md'
+      - 'guides/**'
+      - 'docs/**'
+      - 'LICENSE'
+
+jobs:
+  release:
+    uses: Taure/erlang-ci/.github/workflows/release.yml@v2
+    permissions:
+      contents: write
