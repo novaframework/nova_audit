@@ -69,6 +69,7 @@ rebar3 xref
 - [Adapters](guides/adapters.md) — logger + Kura adapters; how to write your own
 - [Compliance notes](guides/compliance.md) — DORA / NIS2 / GDPR / AI Act mapping
 - [Telemetry](guides/telemetry.md) — events and alarming patterns
+- [Operations runbook](guides/runbook.md) — alerts, dashboards, retention, incident response
 
 ## License
 
