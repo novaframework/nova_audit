@@ -18,8 +18,8 @@
 
 - **Retention policies.** Operator's job. Compliance modules layer this
   on top.
-- **Tamper-evidence / chain hashing.** v0.2+ or downstream lib (think
-  `nova_audit_signed` wrapping the adapter).
+- **Tamper-evidence / chain hashing.** Planned for v0.2+ as a wrapper
+  that layers cryptographic anchoring on top of the adapter.
 - **Cryptographic signatures.** Same as above.
 - **Forensic chain-of-custody.** Same as above.
 - **Query-time access control.** Caller's job; `query/2,3` returns raw

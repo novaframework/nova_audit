@@ -37,7 +37,7 @@ ok = nova_audit:log_async(access_log, Event).
 | `nova_audit_kura`  | Postgres (via Kura) | v0.1   |
 | `nova_audit_pgo`   | Postgres (via pgo)  | v0.1   |
 
-`nova_audit_storage` (uses `nova_storage`) lands in v0.2.
+An object-storage-backed adapter is planned for v0.2.
 
 ## Scope
 
@@ -52,7 +52,7 @@ ok = nova_audit:log_async(access_log, Event).
 
 Out of scope: retention/archival, tamper-evidence/chain hashing,
 application logging (use `logger`), metrics (use `telemetry`/OTel),
-tracing (OTel), encryption-at-rest (`nova_vault`'s job).
+tracing (OTel), encryption-at-rest.
 
 ## Build & test
 
