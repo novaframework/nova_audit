@@ -70,6 +70,7 @@ rebar3 xref
 - [Compliance notes](guides/compliance.md) — DORA / NIS2 / GDPR / AI Act mapping
 - [Telemetry](guides/telemetry.md) — events and alarming patterns
 - [Operations runbook](guides/runbook.md) — alerts, dashboards, retention, incident response
+- [Anti-patterns](guides/anti-patterns.md) — 18 mistakes to avoid, each with right/wrong code
 
 ## License
 
