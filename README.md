@@ -64,7 +64,11 @@ rebar3 xref
 
 ## Documentation
 
-See the [guides](guides/) directory.
+- [Getting started](guides/getting-started.md) — installation, config, basic usage
+- [Walkthrough](guides/walkthrough.md) — audit a Nova web app end-to-end
+- [Adapters](guides/adapters.md) — logger + Kura adapters; how to write your own
+- [Compliance notes](guides/compliance.md) — DORA / NIS2 / GDPR / AI Act mapping
+- [Telemetry](guides/telemetry.md) — events and alarming patterns
 
 ## License
 
