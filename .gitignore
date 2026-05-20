@@ -1,0 +1,12 @@
+_build/
+.rebar3/
+*.beam
+*.crashdump
+rebar.lock
+doc/
+ebin/
+.eunit/
+logs/
+*.iml
+.idea/
+.vscode/
